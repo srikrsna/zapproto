@@ -1,0 +1,13 @@
+version: v1beta1
+name: buf.build/srikrsna/zapproto
+deps:
+  - buf.build/beta/googleapis
+build:
+  roots:
+    - .
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
